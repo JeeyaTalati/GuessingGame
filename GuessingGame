@@ -1,0 +1,11 @@
+
+chances = 5
+import random
+compNumber=random.randint(1,10)
+while (chances>0):
+    chances=chances-1
+    number=int(input("Enter Any Number Between 1 to 10"))
+    if (number==compNumber):
+        print("Your Guess is Correct")
+    else:
+        print("Try Again")
